@@ -10,6 +10,9 @@ artifacts:
     labels:
     - fmnist
     - DL
+  model:
+    path: models/model.pth
+    type: model
 plots:
 - results/train/plots/metrics:
     x: step
