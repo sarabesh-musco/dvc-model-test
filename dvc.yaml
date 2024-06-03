@@ -10,3 +10,6 @@ artifacts:
     labels:
     - fmnist
     - DL
+plots:
+- results/train/plots/metrics:
+    x: step
