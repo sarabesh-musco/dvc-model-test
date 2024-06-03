@@ -1,0 +1,12 @@
+params:
+- results/train/params.yaml
+metrics:
+- results/train/metrics.json
+artifacts:
+  fmnist-model:
+    path: models/model.pth
+    type: model
+    desc: fmnist trained model1
+    labels:
+    - fmnist
+    - DL
